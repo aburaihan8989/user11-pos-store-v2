@@ -94,8 +94,8 @@
                                                         Produk 1
                                                     @elseif ($product->category == 'produk2')
                                                         Produk 2
-                                                    @elseif ($product->category == 'retail')
-                                                        Retail
+                                                    @elseif ($product->category == 'other')
+                                                        Other
                                                     @endif
                                                 </td>
                                                 <td>

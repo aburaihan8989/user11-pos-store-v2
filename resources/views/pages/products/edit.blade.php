@@ -114,9 +114,9 @@
                                         <span class="selectgroup-button">Produk 2</span>
                                     </label>
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="retail" class="selectgroup-input"
-                                            @if ($product->category == 'retail') checked @endif>
-                                        <span class="selectgroup-button">Retail</span>
+                                        <input type="radio" name="category" value="other" class="selectgroup-input"
+                                            @if ($product->category == 'other') checked @endif>
+                                        <span class="selectgroup-button">Other</span>
                                     </label>
                                 </div>
                             </div>
